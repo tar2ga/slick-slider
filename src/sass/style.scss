@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import 'base/null';
+
+body {
+	background-color: #333;
+}
+
+.wrapper {
+	height: 100%;
+	padding: 50px;
+}
+
+@import 'blocks/header';
+@import 'blocks/footer';
+
+@import 'libs/slick-slider';
+
+@import 'base/media'
